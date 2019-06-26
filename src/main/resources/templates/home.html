@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">  
+<head>
+<meta charset="ISO-8859-1">
+<title>wish</title>
+</head>
+<body >
+<form action="/wish" method="post">
+<input type="text" name="msg">
+<input type="submit">
+</form>
+<h4 th:text="${msg}"></h4>
+</body>
+</html>
